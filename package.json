@@ -1,0 +1,41 @@
+{
+  "name": "@aminoeditor/vue-config",
+  "version": "0.0.1",
+  "description": "Friendly Config Manager for Vue.js",
+  "main": "dist/vue-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 10",
+    "build": "rollup -c rollup.config.js"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "Eric Uldall",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.10.1",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "bili": "^4.10.0",
+    "rollup": "^2.12.0",
+    "rollup-plugin-vue2": "^0.8.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminoeditor/vue-config.git"
+  },
+  "keywords": [
+    "vue",
+    "config",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/aminoeditor/vue-config/issues"
+  },
+  "homepage": "https://github.com/aminoeditor/vue-config#readme"
+}
